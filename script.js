@@ -42,7 +42,7 @@ $(function () {
             }).addClass('top');
             next_element.animate({
                 opacity: 1.0
-            }, 1000, function () {
+            }, 500, function () {
                 curr_element.removeClass('top');
                 curr_element.css({
                     opacity: 1.0
@@ -52,7 +52,7 @@ $(function () {
             next_element.addClass('top');
             curr_element.animate({
                 opacity: 0.0
-            }, 1000, function () {
+            }, 500, function () {
                 curr_element.removeClass('top');
                 curr_element.css({
                     opacity: 1.0
